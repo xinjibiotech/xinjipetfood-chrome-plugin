@@ -1,0 +1,13 @@
+{
+  "name": "xinji-pet-b2b-product-link",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension demo for Xinji Pet Food B2B product search and SEO-friendly official website navigation.",
+  "scripts": {
+    "assets:store": "node scripts/generate-store-assets.js",
+    "test:extension": "node tests/puppeteer-extension-test.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.9.0"
+  }
+}

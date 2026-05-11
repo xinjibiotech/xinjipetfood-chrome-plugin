@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xinji Pet Food OEM Product Link</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div>
+          <p class="eyebrow">B2B Pet Supply Navigator</p>
+          <h1>Xinji Product Link</h1>
+        </div>
+      </header>
+
+      <section class="search-panel" aria-label="Product search">
+        <input id="searchInput" type="search" placeholder="Search product, ingredient or category">
+        <button id="searchButton" type="button">Search</button>
+      </section>
+
+      <section class="quick-section" aria-label="Popular keywords">
+        <h2>Popular Keywords</h2>
+        <div id="keywordList" class="chip-grid"></div>
+      </section>
+
+      <section class="quick-section" aria-label="Website shortcuts">
+        <h2>Official Website Shortcuts</h2>
+        <div id="shortcutList" class="shortcut-grid"></div>
+      </section>
+
+      <section class="quick-section" aria-label="Official sitemap">
+        <h2>Official Sitemap</h2>
+        <div id="sitemapList" class="shortcut-grid"></div>
+      </section>
+
+      <section class="toolbar" aria-label="Product tools">
+        <button id="compareButton" type="button">Compare</button>
+        <button id="exportCsvButton" type="button">CSV</button>
+        <button id="exportJsonButton" type="button">JSON</button>
+      </section>
+
+      <section class="results" aria-live="polite">
+        <div class="section-title">
+          <h2>Product Results</h2>
+          <span id="resultCount">0</span>
+        </div>
+        <div id="resultList"></div>
+      </section>
+
+      <section id="comparePanel" class="compare-panel" hidden>
+        <div class="section-title">
+          <h2>Ingredient Comparison</h2>
+          <button id="closeCompareButton" type="button" aria-label="Close comparison">Close</button>
+        </div>
+        <div id="compareTable"></div>
+      </section>
+
+      <section class="quick-section" aria-label="Favorites">
+        <div class="section-title">
+          <h2>Favorites</h2>
+          <span id="favoriteCount">0</span>
+        </div>
+        <div id="favoriteList" class="favorite-list"></div>
+      </section>
+
+      <section class="notice" aria-label="Latest updates">
+        <h2>Latest Notice</h2>
+        <p>New OEM/ODM cooperation inquiries and pet export product requests can start from the official website.</p>
+      </section>
+
+      <section id="fallbackModal" class="modal" hidden aria-label="Product detail fallback" role="dialog">
+        <div class="modal-content">
+          <div class="section-title">
+            <h2 id="fallbackTitle">Product Detail</h2>
+            <button id="closeFallbackButton" type="button" aria-label="Close detail">Close</button>
+          </div>
+          <div id="fallbackBody" class="fallback-body"></div>
+          <div class="modal-actions">
+            <button id="fallbackContactButton" type="button">Contact Official Team</button>
+            <button id="fallbackExportButton" type="button" class="secondary">Export Product Profile</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
