@@ -121,6 +121,7 @@ Web Store description snippet:
 
 ## Public Links
 
+- Chrome Web Store: https://chromewebstore.google.com/detail/xinji-pet-food-oem-produc/eflnphnkmjahfnmgbjnkmjenlbimhfii
 - GitHub Pages demo: https://xinjibiotech.github.io/xinjipetfood-chrome-plugin/
 - YouTube demo video: https://www.youtube.com/watch?v=aCcGXN7BMRk
 - Extension privacy policy: https://www.xinjipetfood.com/chrome-extension-privacy/

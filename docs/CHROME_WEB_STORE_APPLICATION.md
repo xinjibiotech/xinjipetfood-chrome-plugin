@@ -2,6 +2,7 @@
 
 Project: Xinji Pet Food OEM Product Link  
 Official website: https://www.xinjipetfood.com/  
+Chrome Web Store: https://chromewebstore.google.com/detail/xinji-pet-food-oem-produc/eflnphnkmjahfnmgbjnkmjenlbimhfii  
 Primary SEO theme: pet food OEM  
 Brand terms: Xinji, Xinji Pet Food, Xinji pet food OEM
 
@@ -10,6 +11,8 @@ Brand terms: Xinji, Xinji Pet Food, Xinji pet food OEM
 Position this extension as a practical B2B sourcing and navigation tool for buyers interested in pet food OEM, pet food formulas, pet supplements, animal health products and pet export cooperation.
 
 Do not submit it as an SEO tool. The review-facing message should be: this extension helps B2B users search product references, compare ingredients, save sourcing records and open verified Xinji official website resources.
+
+Status: published on Chrome Web Store.
 
 ## Upload Assets
 
